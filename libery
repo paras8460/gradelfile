@@ -23,3 +23,22 @@ implementation 'com.squareup.picasso:picasso:2.5.2'
 //Butter Knife
 implementation 'com.jakewharton:butterknife:8.8.1'
 annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+//Image circle
+ implementation 'de.hdodenhof:circleimageview:2.2.0'
+ 
+   //Crashlytics
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.6'
+    
+    /////notification
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    
+    //noinspection GradleDependency
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    
+    //noinspection GradleDependency
+    implementation 'com.google.firebase:firebase-messaging:17.1.0'
+    implementation 'com.pusher:push-notifications-android:1.0.0'
+    
+    // Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
