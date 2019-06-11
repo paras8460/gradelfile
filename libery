@@ -58,9 +58,13 @@ annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
    //Crashlytics
     implementation 'com.crashlytics.sdk.android:crashlytics:2.9.6'
     
+ 
     /////notification
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.pusher:push-notifications-android:1.0.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
     //noinspection GradleDependency
     implementation 'com.google.firebase:firebase-core:16.0.1'
     
@@ -70,3 +74,8 @@ annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     
     // Shimmer
     implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    
+    
+    //color shadow
+        implementation 'com.loopeer.lib:shadow:0.0.4-beta3'
+
